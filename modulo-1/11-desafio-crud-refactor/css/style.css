@@ -1,0 +1,11 @@
+.deleteButton {
+  columns: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin-right: 10px;
+  border-radius: 60%;
+}
+
+.clickable {
+  cursor: pointer;
+}
