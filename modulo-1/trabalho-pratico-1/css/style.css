@@ -1,0 +1,51 @@
+#outputRed {
+  background-color: lightgrey;
+  text-align: center;
+  width: 3em;
+}
+
+#outputGreen {
+  background-color: lightgrey;
+  text-align: center;
+  width: 3em;
+}
+
+#outputBlue {
+  background-color: lightgrey;
+  text-align: center;
+  width: 3em;
+}
+
+.cores {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  background-color: lightskyblue;
+}
+
+#green {
+  text-align: left;
+  align-items: center;
+}
+
+#square {
+  background-color: #000;
+  width: 75px;
+  height: 75px;
+}
+
+#inputRed {
+  vertical-align: middle;
+}
+
+#inputGreen {
+  vertical-align: middle;
+}
+
+#inputBlue {
+  vertical-align: middle;
+}

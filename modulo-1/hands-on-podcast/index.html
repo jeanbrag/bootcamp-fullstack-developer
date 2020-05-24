@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Rádio Podcast</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center;">Rádio Podcast</h1>
+      <div>
+        <input
+          id="inputFrequency"
+          style="text-align: center;"
+          width="300px"
+          type="text"
+          readonly
+          value="87.5"
+        />
+      </div>
+
+      <div>
+        <input
+          id="inputRange"
+          type="range"
+          value="87.5"
+          min="87.5"
+          max="108"
+          step="0.1"
+        />
+      </div>
+      <div id="divPodcasts">
+        Podcast
+      </div>
+    </div>
+
+    <script src="./js/podcasts.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

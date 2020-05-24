@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho Prático 1</title>
+  </head>
+  <body>
+    <div class="cores">
+      <table>
+        <tr>
+          <td><span class="names">(R) Vermelho:</span></td>
+          <td>
+            <span
+              ><input
+                class="inputs"
+                id="inputRed"
+                type="range"
+                min="0"
+                max="255"
+            /></span>
+          </td>
+          <td>
+            <span
+              ><input id="outputRed" type="text" disabled="disabled"
+            /></span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="names">(G) Verde:</span></td>
+          <td>
+            <span
+              ><input
+                class="inputs"
+                id="inputGreen"
+                type="range"
+                min="0"
+                max="255"
+            /></span>
+          </td>
+          <td>
+            <span
+              ><input
+                class="inputs"
+                id="outputGreen"
+                type="text"
+                disabled="disabled"
+            /></span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="names">(B) Azul:</span></td>
+          <td>
+            <span><input id="inputBlue" type="range" min="0" max="255" /></span>
+          </td>
+          <td>
+            <span
+              ><input id="outputBlue" type="text" disabled="disabled"
+            /></span>
+          </td>
+        </tr>
+      </table>
+      <div id="square"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
