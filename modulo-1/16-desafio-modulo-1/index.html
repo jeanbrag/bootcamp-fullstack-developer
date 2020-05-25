@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Desafio 02</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Pesquisa de usuários</h1>
+    <div id="divBusca">
+      <form>
+        <label>
+          <input type="text" id="input-name" placeholder="Busca" />
+          <input type="submit" id="btnBusca" value="Buscar" />
+        </label>
+      </form>
+    </div>
+
+    <div class="container">
+      <div id="numeroPessoasEncontradas">
+        <h3>
+          Nenhum usuário filtrado
+        </h3>
+        <div id="tabPeople"></div>
+      </div>
+      <div class="statistic">
+        <h3>Nada a ser exibido</h3>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
