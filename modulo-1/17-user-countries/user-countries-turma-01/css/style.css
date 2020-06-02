@@ -1,0 +1,36 @@
+.bordered {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.flag {
+  width: 30px;
+  height: 15px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-center {
+  justify-content: center;
+}

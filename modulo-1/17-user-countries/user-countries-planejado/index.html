@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>User Countries Planejado</title>
+  </head>
+  <body>
+    <div class="container center">
+      <h1>User Countries</h1>
+
+      <div class="flex-row flex-center" id="spinner">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <strong style="margin-left: 10px;">Aguarde...</strong>
+      </div>
+
+      <div id="divUsers" class="users"></div>
+
+      <script defer src="./js/script.js"></script>
+    </div>
+  </body>
+</html>
