@@ -86,6 +86,22 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 ### Módulo 2
 
+- [x] Aula 1 - Backend, Frontend e API's
+- [x] Aula 2 - Node.js
+- [x] Aula 3 - NPM, IDE de desenvolvimento e ferramentas para consumo de endpoints
+- [x] Aula 4 - Express: instalação, Hello World e configurações iniciais
+- [x] Aula 5 - Express: rotas, middlewares e tratamento de erros
+- [x] Aula 6 - Express: gravação de logs e servindo arquivos estáticos
+- [x] Aula 7 - Construção de uma API: instalações
+- [x] Aula 8 - Apresentação da API e criação do projeto
+- [x] Aula 9 - Método POST
+- [x] Aula 10 - Método GET
+- [x] Aula 11 - Try catch e Método DELETE
+- [x] Aula 12 - Método PUT
+- [x] Aula 13 - Promises
+- [x] Aula 14 - Gravação de logs e ES Modules
+- [x] Aula 15 - Documentação e Cors
+
 ### Módulo 3
 
 ### Módulo 4
