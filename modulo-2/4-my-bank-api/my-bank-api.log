@@ -1,0 +1,20 @@
+2020-06-08T05:35:18.498Z [my-bank-api] info: API Started
+2020-06-08T05:36:13.844Z [my-bank-api] info: API Started
+2020-06-08T05:38:18.033Z [my-bank-api] info: API Started
+2020-06-08T05:38:28.300Z [my-bank-api] info: API Started
+2020-06-08T05:39:14.601Z [my-bank-api] info: API Started
+2020-06-08T05:39:43.407Z [my-bank-api] info: API Started
+2020-06-08T05:40:39.114Z [my-bank-api] info: API Started
+2020-06-08T05:41:31.045Z [my-bank-api] info: API Started
+2020-06-08T05:42:14.071Z [my-bank-api] info: API Started
+2020-06-08T05:42:35.694Z [my-bank-api] info: API Started
+2020-06-08T05:43:04.966Z [my-bank-api] info: API Started
+2020-06-08T05:43:30.075Z [my-bank-api] info: API Started
+2020-06-08T05:43:52.836Z [my-bank-api] info: API Started
+2020-06-08T05:44:06.749Z [my-bank-api] info: API Started
+2020-06-08T05:45:00.285Z [my-bank-api] info: API Started
+2020-06-08T05:45:09.312Z [my-bank-api] info: GET /account
+2020-06-08T05:45:14.893Z [my-bank-api] error: POST /account/transaction Não há saldo
+2020-06-08T05:45:38.372Z [my-bank-api] info: POST /account - {"id":13,"name":"jeanfghs","balance":23000}
+2020-06-08T06:36:00.669Z [my-bank-api] info: API Started
+2020-06-08T06:36:58.939Z [my-bank-api] info: API Started

@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\3-tests\\index.js",
+      "program": "${workspaceFolder}\\4-my-bank-api\\index.js",
       "runtimeArgs": ["--experimental-modules"]
     }
   ]
